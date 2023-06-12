@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 import data from './data/inmueble.json'
 import List from './components/list';
+import FmdGoodIcon from '@mui/icons-material/FmdGood';
 
 const App = () => {
 
@@ -9,9 +10,8 @@ const App = () => {
   // console.log(recentAliments);
 
   return (
-      <View >
+      <View style={styles.container}>
 
-        <Text>Inmuebles</Text>
 
         <List info={data} />
 
@@ -19,5 +19,10 @@ const App = () => {
   );
 
 }
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'white'
+  }
+})
 
 export default App;
