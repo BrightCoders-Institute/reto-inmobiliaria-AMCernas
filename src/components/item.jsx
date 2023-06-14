@@ -1,8 +1,8 @@
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import React, { useState } from 'react';
-import Icon from 'react-native-vector-icons/MaterialIcons'
 import Icon2 from 'react-native-vector-icons/Octicons'
 import Icon3 from 'react-native-vector-icons/MaterialCommunityIcons'
+import Icon from './icon';
 
 const Item = ({ inmueble }) => {
 
@@ -22,11 +22,7 @@ const Item = ({ inmueble }) => {
           <View>
             <Text style={styles.nombre}>{inmueble.nombre}</Text>
             <Text style={styles.direccion}><Icon2 name="location" size={20}/>  {inmueble.direccion} </Text>
-            <View style={styles.row}>
-                <Text style={styles.r}><Icon3 name="bed-king-outline" size={20}/>  {inmueble.habitaciones }</Text>
-                <Text style={styles.r}><Icon3 name="shower" size={20}/>  {inmueble.banios}</Text>
-                <Text style={styles.r}><Icon3 name="home" size={20}/>  {inmueble.superficie}</Text>
-            </View>
+                <Icon inmueble={inmueble}/>
             <Text style={styles.costo}>${inmueble.costoMensual}/M</Text>
             <Text style={styles.calificacion}><Icon2 name="star-fill" size={15} color="#eeba00"/> {inmueble.calificacion}</Text>
             <View style={styles.favorito}>
@@ -58,11 +54,6 @@ const styles = StyleSheet.create({
       height: 125,
       marginRight: 10,
       borderRadius: 10,
-    },
-    row: {
-      flexDirection: 'row',
-      justifyContent: 'center',
-      alignItems: 'center',
     },
     r: {
         width: 55,
