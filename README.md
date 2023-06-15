@@ -14,9 +14,6 @@
   - [Run project(ios)](#Run-project(ios))
 - [Credits](#Credits)
 - [Badges](#Badges)
-
-- [Créditos](#Créditos)
-- [Insignias](#Insignias)
 ## Description. A brief description of what the project is about
 - This project consists of a mobile application for a real estate agency that allows showcasing all the properties available for rent to its clients.
 - The code consists of 3 modules:
@@ -44,4 +41,6 @@ npx react-native run-ios
 
 ## Credits
 - [AMCernas](https://github.com/AMCernas)
+  
 ## Badges
+- [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fc678601f60247cd9d34e799ee3c62ba)](https://app.codacy.com/gh/BrightCoders-Institute/reto-inmobiliaria-AMCernas/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
