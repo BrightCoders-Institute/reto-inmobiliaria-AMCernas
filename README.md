@@ -5,14 +5,43 @@
 
 > [Ver instrucciones antes de iniciar](./instructions.md)
 
-This README would normally document whatever steps are necessary to get the application up and running.
+## Table of contents
+- [Description](#Description)
+- [Run the Project](#Run-the-Project)
+  - [Clone the project](#Clone-the-project)
+  - [Install dependencies](#Install_dependencies)
+  - [Run project(android)](#Run-project(android))
+  - [Run project(ios)](#Run-project(ios))
+- [Credits](#Credits)
+- [Badges](#Badges)
 
-Things you may want to cover:
+- [Créditos](#Créditos)
+- [Insignias](#Insignias)
+## Description. A brief description of what the project is about
+- This project consists of a mobile application for a real estate agency that allows showcasing all the properties available for rent to its clients.
+- The code consists of 3 modules:
+  1. Components: This is where the components that provide functionality to the application are located. The modules are item, list, icon, and favorite.
+  2. Data: This is where the property.json file is located, which is where we retrieve the data to display in the app.
+  3.  Screen: This is where all the components are rendered.
 
-- Title or Project Name
-- Table of contents
-- Description. A brief description of what the project is about
-- How to Install and Run the Project.
-- How to Use the Project.
-- Credits
-- Badges
+## Run the Project
+## Clone the project
+```
+git clone 
+```
+## Install dependencies
+```
+npm install
+```
+## Run project(android)
+```
+npx react-native run-android
+```
+## Run project(ios)
+```
+npx react-native run-ios
+```
+
+## Credits
+- [AMCernas](https://github.com/AMCernas)
+## Badges
