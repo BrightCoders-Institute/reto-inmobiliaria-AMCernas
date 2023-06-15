@@ -71,7 +71,7 @@
 2. Para cada propiedad, se debe mostrar la siguiente información:
    - Nombre
    - Dirección
-   - Número de habitaciones
+   - Número de room
    - Número de baños
    - Superficie
    - Costo de renta mensual

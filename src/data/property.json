@@ -1,0 +1,79 @@
+[
+    {
+        "id": 0,
+        "name": "The Willows",
+        "address": "3517 W. Gray St. Utica",
+        "room": 1,
+        "bathroom": 2,
+        "area": 230,
+        "monthlyCost": 500,
+        "rating": 4.7,
+        "image": "https://images.squarespace-cdn.com/content/v1/5adf9f5b12b13f147b9b6590/1529093418332-L7RZF3TZ92CHKJH5MDVI/B1+AREA+SOCIAL%2C+SIN+DORMITORIO.jpg?format=2500w"
+    },
+    {
+        "id": 1,
+        "name": "Orchad House",
+        "address": "3517 W. Gray St. Utica",
+        "room": 2,
+        "bathroom": 1,
+        "area": 275,
+        "monthlyCost": 300,
+        "rating": 4.2,
+        "image": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9ncjQ3NDA5NDIyMDIyMDMxNTEyNDkxMi5qcGciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5MDAsImhlaWdodCI6Njc1LCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0="
+    },
+    {
+        "id": 2,
+        "name": "Casa del Patio",
+        "address": "4523 E. Red Av. Pigeon",
+        "room": 2,
+        "bathroom": 3,
+        "area": 300,
+        "monthlyCost": 250,
+        "rating": 4.1,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_867279-MLM52713490916_122022-O.webp"
+    },
+    {
+        "id": 3,
+        "name": "Si",
+        "address": "4523 E. Red Av. Pigeon",
+        "room": 1,
+        "bathroom": 1,
+        "area": 175,
+        "monthlyCost": 200,
+        "rating": 3.5,
+        "image": "https://assets.easybroker.com/property_images/2387780/37122406/EB-ID7780.jfif?version=1628274092"
+    },
+    {
+        "id": 4,
+        "name": "Deluxe house",
+        "address": "4523 E. Red Av. Pigeon",
+        "room": 4,
+        "bathroom": 3,
+        "area": 540,
+        "monthlyCost": 630,
+        "rating": 4.7,
+        "image": "https://s3.amazonaws.com/assets.moveglobally.com/property_images/800639/12088062/EB-CB0639.?1534664646"
+    },
+    {
+        "id": 5,
+        "name": "Enough houses",
+        "address": "4523 E. Red Av. Pigeon",
+        "room": 4,
+        "bathroom": 3,
+        "area": 490,
+        "monthlyCost": 550,
+        "rating": 5,
+        "image": "https://cyt-media.s3.amazonaws.com/img_casas/09944b7c-accb-49ef-bbef-c12d0738620e-Departamentos-Renta-Paisajes-del-Tesoro-Zapopan-Jalisco-3608015.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Another House",
+        "address": "4523 E. Red Av. Pigeon",
+        "room": 2,
+        "bathroom": 1,
+        "area": 195,
+        "monthlyCost": 375,
+        "rating": 4,
+        "image": "https://images1.forrent.com/i2/OZvqU0iWHrNY0-z80jAxGT7G7lO1B2FwJkDcfGhJgs0/117/image.jpg"
+    },
+]

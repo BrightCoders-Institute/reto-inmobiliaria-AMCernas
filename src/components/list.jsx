@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import Item from './item';
 
 const List = ({info}) => {
@@ -7,7 +7,7 @@ const List = ({info}) => {
       <View >  
         <FlatList
           data={info}
-          renderItem={({ item }) => <Item inmueble={ item } />}
+          renderItem={({ item }) => <Item property={ item } />}
           keyExtractor={(item) => item.id.toString()}
         />
       </View>

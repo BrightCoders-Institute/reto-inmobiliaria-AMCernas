@@ -1,13 +1,13 @@
-import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, } from 'react-native';
 import React, { useState } from 'react';
 import Icon3 from 'react-native-vector-icons/MaterialCommunityIcons'
 
-const Icon = ({inmueble}) => {
+const Icon = ({property}) => {
     return (
-        <View style={styles.row}>
-            <Text style={styles.r}><Icon3 name="bed-king-outline" size={20}/>  {inmueble.habitaciones }</Text>
-            <Text style={styles.r}><Icon3 name="shower" size={20}/>  {inmueble.banios}</Text>
-            <Text style={styles.r}><Icon3 name="vector-square" size={20}/>  {inmueble.superficie}</Text>
+      <View style={styles.row}>
+            <Text style={styles.iconStyle}><Icon3 name="bed-king-outline" size={20}/> {property.room }</Text>
+            <Text style={styles.iconStyle}><Icon3 name="shower" size={20}/> {property.bathroom}</Text>
+            <Text style={styles.iconStyle}><Icon3 name="vector-square" size={20}/> {property.area} ft²</Text>
         </View>
     );
 };
@@ -15,11 +15,9 @@ const Icon = ({inmueble}) => {
 const styles = StyleSheet.create({
     row: {
         flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-      },
-    r: {
-        width: 55,
+    },
+    iconStyle: {
+        width: 70,
         color: 'black',
         fontWeight: 'bold',
         marginBottom: 10,
