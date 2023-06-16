@@ -4,7 +4,7 @@ import Item from './item';
 
 const List = ({info}) => {
     return (
-      <View >  
+      <View testID="list-component">  
         <FlatList
           data={info}
           renderItem={({ item }) => <Item property={ item } />}

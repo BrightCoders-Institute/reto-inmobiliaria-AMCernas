@@ -8,7 +8,7 @@ const Item = ({ property }) => {
     return (
         <View style={styles.container}>
           <View>
-            <Image source={{uri: property.image}}  style={styles.image} />
+            <Image source={{uri: property.image}}  style={styles.image} testID="property-image" />
           </View>
           <View>
             <Text style={styles.name}>{property.name}</Text>
